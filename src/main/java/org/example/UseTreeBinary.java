@@ -31,8 +31,15 @@ public class UseTreeBinary {
         double t2 = System.currentTimeMillis();
         int arrayVal = FindElemArray.findElem(arrayList, arrayList.get(arrayList.size()-1));
         double t3 = System.currentTimeMillis();
+        tree.deleteNode(10);
+        double t4 = System.currentTimeMillis();
+        arrayList.remove(10);
+        double t5 = System.currentTimeMillis();
         System.out.println("Time of ArrayList: "+(t3-t2));
         System.out.println("Time of Tree: "+(t2-t1));
+        System.out.println("Time of Tree for delete: "+(t4-t3));
+        System.out.println("Time of ArrayList for delete: "+(t5-t4));
+
 
     }
 
