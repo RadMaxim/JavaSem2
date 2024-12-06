@@ -17,3 +17,7 @@
 
 ![BinarySearch](./imgGit/img_7.png)
 ![BinarySearch](./imgGit/img_8.png)
+
+
+#### Создаем streamApi с помощью несколько потоков
+![dds](./imgGit/img_9.png)
