@@ -21,3 +21,8 @@
 
 #### Создаем streamApi с помощью несколько потоков
 ![dds](./imgGit/img_9.png)
+
+
+#### Создаем дерево FenwickTree 
+
+![FenwickTree](./imgGit/img_10.png)
